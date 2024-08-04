@@ -58,7 +58,6 @@ The `wasp-agent` component deploys an OCI hook to enable swap usage for containe
 +
 [source,yaml]
 ----
-apiVersion: machineconfiguration.openshift.io/v1
 kind: DaemonSet
 apiVersion: apps/v1
 metadata:
